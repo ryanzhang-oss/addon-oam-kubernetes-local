@@ -4,10 +4,10 @@
 
 replicaCount: 1
 createNamespace: false
+useWebhook: true
 image:
-  repository: oamdev/core-resource-controller
-  tag: v0.3
-  pullPolicy: Always
+  repository: oamdev/core-resource-controller:v0.3
+  pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 nameOverride: ""
