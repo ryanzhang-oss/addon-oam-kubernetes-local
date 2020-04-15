@@ -33,7 +33,7 @@ jobs:
         fi
 
     - name: Install ginkgo
-      run: sudo apt-get install golang-ginkgo-dev
+      run: apt-get install -y golang-ginkgo-dev
 
     - name: Test
       run: make test
